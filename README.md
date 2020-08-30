@@ -60,7 +60,7 @@ that's okay for now.
 
 ###### `componentDidMount`
 
-The `componentDidMount` method is often a good place to include
+<!-- The `componentDidMount` method is often a good place to include
 [setInterval][setinterval] or setTimeout functions, allowing you to delay
 something from happening on a component or cause some repeating change. Perfect
 for our timer app.
@@ -70,9 +70,9 @@ updating the state. The state value, `time`, is then included in the render. We
 just need to set up an interval to call `clockTick`.
 
 To create a [setInterval][setinterval], the best practice is to assign it to a
-variable within the scope of our class:
+variable within the scope of our class: -->
 
-```js
+<!-- ```js
 this.interval = setInterval(...)
 ```
 
@@ -80,7 +80,7 @@ Write a `componentDidMount` that initializes an interval. Pass `clockTick` as
 the callback function and set it to `1000` to update every second.
 
 Once this is working, in our application, when a new timer is added, we should
-see the displayed number increase every second!
+see the displayed number increase every second! -->
 
 ###### `componentWillUnmount`
 
